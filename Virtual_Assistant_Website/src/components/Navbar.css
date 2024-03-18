@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Merienda:wght@300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@media only screen and (min-width: 200px) and (max-width: 449px) {
+  #company_name{
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #sm{
+    margin-left: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+    #others{
+      display: none;
+    }
+    #bar{
+      display: block;
+    }
+    #my_icon{
+      width: 3rem;
+    }
+  }
+
+  #company_name{
+    font-family: "Merienda", cursive;
+  }
+
+  @media only screen and (min-width: 450px) and (max-width: 600px) {
+    #main {
+      width: 18rem;
+    }
+    #sm{
+      margin-left: 5rem;
+    }
+  }
+  @media only screen and (min-width: 450px) and (max-width: 768px) {
+    #others {
+      gap: 3rem;
+      margin-right: 1rem;
+    }
+    #company_name{
+      font-size: 1.4rem;
+    }
+  }
+
+  #main{
+    height: 87.6vh;
+    --tw-bg-opacity: 1;
+    background-color: rgb(224, 224, 224);    
+    column-gap: 1px;
+  }
+  #icon{
+    transform: rotate(0.5turn);    
+    transition: transform 5s ease;  
+  }
+
+  #btns{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+  }
+
+  #txt{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    text-underline-offset: 1vh;
+    text-decoration-color: rgb(118, 123, 20);
+    font-family: "Roboto Mono", monospace;  
+  }
+  .text{
+    cursor: pointer;
+    /* transition: transform 0.3s ease-in; */
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    /* transition: font-weight 0.3s ease-in; */
+    /* transition: text-decoration ease-in; */
+    font-weight: 200;
+    font-family: "Roboto Mono", monospace;
+  }
+  .text:hover{
+    transform: scale(1.1);
+    font-weight: 450;
+    text-decoration: underline rgb(109, 46, 15) 0.2vh;
+    text-underline-offset: 1vh;
+  }
+
+  #iconS{
+    color: rgb(118, 123, 20);
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-left: 1vw;
+  }
+  

@@ -1,0 +1,103 @@
+#full{
+    background: linear-gradient(to bottom, aqua 38%, rgb(62, 214, 100) 10%);
+}
+@media only screen and (max-width:639px){
+    #full{
+        height: max-content;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    #company{
+        gap: 2rem;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    #name{
+        font-size: 1.6rem;
+    }
+    #trust{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        width: 85%;
+    }
+    #more_cards{
+        gap: 2.3rem;
+    }
+    #cards{
+        gap: 1.3rem;
+        height: 22rem;
+        width: 18rem;
+    }
+    #title , #auth{
+        font-size: 1.4rem;
+    }
+    #descript{
+        font-size: 0.9rem;
+        width: 90%;
+    }
+    #hope{
+        gap: 2rem;
+    }
+    #vector_img{
+        width: 13rem;
+    }
+    #hope_txt{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    #copy{
+        height: 15vh;
+    }
+    #copyright{
+        width: 80%;
+    }
+}
+
+#name{
+    font-weight: bold;
+}
+#trust{
+        font-weight: bold;
+}
+@media only screen and (min-width:475px) and (max-width:639px){
+    #cards{
+        width: 24rem;
+    }
+    #title , #auth{
+        font-size: 1.9rem;
+    }
+    #descript{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width:640px) and (max-width:767px){
+    #cards{
+        width: 80%;
+        height: 24rem;
+    }
+}
+
+@media only screen and (min-width:768px){
+    #full{
+        height: 200vh;
+    }
+    #more_cards{
+        width: 90%;
+        height: 25rem;
+    }
+    #cards{
+        width: 25vw;
+        height: 50vh;
+        gap: 0.8rem;
+    }
+    #name{
+        font-size:larger;
+    }
+}
+@media only screen and (min-width:1280px){
+    #full{
+        height: 174vh;
+    }
+}
