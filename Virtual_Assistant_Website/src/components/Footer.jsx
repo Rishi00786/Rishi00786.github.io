@@ -51,8 +51,9 @@ const Footer = () => {
                 <div className="t">Contact Me</div>
             </div>
         </div> 
-        <div id="copy" className='flex bg-blue-800 w-screen items-center justify-center sm:h-24'>
-            <div id='copyright' className='text-center text-white font-thin'>© 2035 by Maggie Brightstone. Powered and secured by Wix</div>
+        <div id="copy" className='flex bg-blue-800 w-screen items-center justify-center sm:h-24 gap-1'>
+            <div id='copyright' className='text-center text-white font-thin'>© 2035 by Maggie Brightstone. Powered and secured by</div>
+            <a href="/"><div className='underline text-white'>Wix</div></a>
         </div>
     </div>    
     </>
