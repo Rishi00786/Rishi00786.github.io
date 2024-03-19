@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Katibeh&family=Madimi+One&family=Merienda:wght@300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 #full{
-    background: linear-gradient(to bottom, rgb(10 23 103) 38%, rgb(212 165 220) 10%);
+    background: linear-gradient(to bottom, rgb(6, 8, 78) 38%, rgb(178, 7, 158) 10%);
+}
+#descript{
+    font-family: "Josefin Slab", serif;
 }
 @media only screen and (max-width:639px){
     #full{
@@ -101,3 +106,12 @@
         height: 178vh;
     }
 }
+@media only screen and (max-width:768px){
+    #trust{
+        margin-top: 4rem;
+    }
+}
+
+/* #copy{
+    gap: 0.2rem;
+} */

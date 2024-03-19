@@ -9,18 +9,17 @@ import Body_two from './components/Body_two'
 import Footer from './components/Footer'
 
 function App() {
-
   const { display } = useStateContext()
 
   return (
     <>
-      <Navbar/>
-      {display && <div>
-      <Sidebar/>
+      <Navbar />
+      {display && <div id='sidebar' className={display ? 'sidebar-visible' : 'sidebar-hidden'}>
+        <Sidebar />
       </div>}
-      <Body/>
-      <Body_two/>
-      <Footer/>
+        {!display && <Body />}
+        {!display && <Body_two />}
+        {!display && <Footer />}
     </>
   )
 }

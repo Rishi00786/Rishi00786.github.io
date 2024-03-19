@@ -5,9 +5,9 @@ import Person from '../assets/person.webp'
 const Body = () => {
     return (
         <>
-            <div id='main_body' className='w-screen bg-gray-100 flex flex-col items-center '>
+            <div id='main_body' className='w-screen flex flex-col items-center '>
                 <div id='background' className='w-screen flex gap-6 flex-col items-center justify-start'>
-                    <div id='assist' className='sm:text-3xl font-bold text-gray-200 mt-20 flex text-center md:text-xl'>
+                    <div id='assist' className='sm:text-5xl font-bold text-gray-300 mt-20 flex text-center md:text-xl m-2'>
                         Virtual Assistant at Your Service
                     </div>
                     <div id='tit' className='font-light text-white text-center sm:text-xl'>
@@ -17,9 +17,9 @@ const Body = () => {
                         See Services
                     </div>
                 </div>
-                <div id='women_box' className="bg-gray-100 flex flex-col items-center md:items-center lg:items-center  gap-8 ">
+                <div id='women_box' className=" flex flex-col items-center md:items-center lg:items-center  gap-8 ">
                     <div id='women_image' className="mt-8 ">
-                        <img src={Person} alt="" srcSet=""/>
+                        <img src={Person} alt="" srcSet="" id='women_img'/>
                     </div>
                     <div id='store' className='flex flex-col items-center justify-center gap-4'>
                     <div id='info1' className='md:text-2xl text-center sm:text-xl w-4/5'>
@@ -28,7 +28,7 @@ const Body = () => {
                         </div>
                     </div>
                     <div id='info2' className='text-center font-thin w-4/5'>
-                        <div className="1 ">
+                        <div className="1">
                         Experienced administrative professional adept at multitasking, problem-solving, organization, communication, and delivering exceptional support in various office environments.
                         </div>
                     </div>

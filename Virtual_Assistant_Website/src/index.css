@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-100%); /* Start off-screen */
+    }
+    100% {
+      transform: translateY(0); /* Slide in */
+    }
+  }
+  
+  
+  #sidebar {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    height: 100%;
+    width: 400px;
+}
+
+  .sidebar-visible {
+    animation: slideIn 0.6s ease-in forwards; 
+}
+  
+  
+  

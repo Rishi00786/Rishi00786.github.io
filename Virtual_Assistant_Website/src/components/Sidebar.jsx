@@ -5,10 +5,10 @@ import './Navbar.css'
 
 const Sidebar = () => (
   <div>
-    <div id='main' className="main w-56 flex gap-20 flex-col items-start justify-start">
+    <div id='main' className="main w-screen flex gap-20 flex-col items-center justify-center">
       <div className='flex flex-col gap-12 mt-8'>
         <div id='btns' className="btns">
-          <IoIcons.IoMdHome id='iconS' />
+          <div><IoIcons.IoMdHome id='iconS' /></div>
           <div id='txt' className="txt">Home</div>
         </div>
         <div id='btns' className="btns">
@@ -26,7 +26,7 @@ const Sidebar = () => (
           <div id='txt' className="txt">Mail</div>
         </div>
       </div>
-    <div id='sm' className="flex gap-2 mt-28 justify-center items-center ">
+    <div id='sm' className="flex gap-8 mt-28 justify-center items-center ">
       <a href="" target='_blank'><faIcons.FaInstagram id='iconS'/></a>
       <a href="" target='_blank'><faIcons.FaWhatsapp id='iconS'/></a>
       <a href="" target='_blank'><faIcons.FaLinkedin id='iconS'/></a>

@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Madimi+One&family=Merienda:wght@300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Katibeh&family=Madimi+One&family=Merienda:wght@300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+#assist{
+  font-family: "Katibeh", serif;
+}
+#tit , #k , #info2{
+  font-family: "Josefin Slab", serif;
+}
+
 #main_body{
     height: 185vh;
+    background-color: rgb(255, 255, 231);
 }
 #background {
     height: 76vh;
@@ -12,7 +23,7 @@
   }
   @media only screen and (max-width: 768px) {
     #background{
-        height: 70vh;
+        height: 73vh;
     }
   }
   #women_box{
@@ -26,10 +37,10 @@
       font-size: 1.3rem;
     }
     #assist{
-      font-size: 1.6rem;
+      font-size: 2.5rem;
     }
     #tit{
-      font-size: 1.25rem;
+      font-size: 1.28rem;
     }
   }
 
@@ -75,7 +86,7 @@
       width: 94%;
     }
     #info2{
-      font-size: 1.1rem;
+      font-size: 1.24rem;
     }
     #women_image{
       width: 55rem;
@@ -89,12 +100,12 @@
   }
   @media only screen and (min-width: 1025px){
     #assist{
-      font-size: 4rem;
-      width: 50%;
+      font-size: 5.4rem;
       line-height: 10vh;
+      margin-top: 10rem;
     }
     #tit{
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
     #j{
       font-size: 2.7rem;
@@ -103,18 +114,18 @@
       margin-top: 4.3rem;
     }
     #k{
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px){
     #assist{
-      font-size: 2rem;
-      width: 50%;
+      font-size: 3.7rem;
       line-height: 6vh;
+      margin-top: 8.8rem;
     }
     #tit{
-      font-size: 1.34rem;
+      font-size: 1.7rem;
     }
     #j{
       font-size: 2rem;
@@ -124,14 +135,41 @@
       margin-bottom: 5rem;
     }
     #k{
-      font-size: 1.1rem;
+      font-size: 1.3rem;
     }
   }
   #info3:hover , #btnn:hover , #read_btn:hover{
-    background-color: rgb(80, 109, 6);
+    background-color: rgb(115, 96, 0);
     color: white;
   }
   #info3 , #btnn , #read_btn{
-    background-color:blanchedalmond;
+    background-color:rgb(203, 176, 231);
     transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
   }
+  @media only screen and (max-width: 670px){
+    #main_body{
+      height: 170vh;
+  }
+  }
+#women_box{
+  box-shadow: 0.1px 0 .1em .1em rgb(55, 39, 39) , -0.1px 0 .2em .24em rgb(139, 2, 93);
+  box-decoration-break: slice;
+  background-color: rgb(255, 255, 231);
+}
+#women_img{
+  box-shadow: 0.22px 0 .12em .12em rgb(0, 0, 0) , -0.1px 0 .35em .35em rgb(200, 178, 178);
+  box-decoration-break: slice;
+}
+@media only screen and (max-width:767px){
+  #assist{
+      margin-top: 3.3rem;
+  }
+  #info2{
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 768px){
+  #assist{
+    margin-top: 7rem;
+}
+}

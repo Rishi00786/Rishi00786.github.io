@@ -6,12 +6,6 @@
     font-size: 1.1rem;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  #sm{
-    margin-left: 3rem;
-  }
-}
 @media only screen and (max-width: 600px) {
     #others{
       display: none;
@@ -28,14 +22,6 @@
     font-family: "Merienda", cursive;
   }
 
-  @media only screen and (min-width: 450px) and (max-width: 600px) {
-    #main {
-      width: 18rem;
-    }
-    #sm{
-      margin-left: 5rem;
-    }
-  }
   @media only screen and (min-width: 450px) and (max-width: 768px) {
     #others {
       gap: 3rem;
@@ -47,9 +33,9 @@
   }
 
   #main{
-    height: 87.6vh;
+    height: 90vh;
     --tw-bg-opacity: 1;
-    background-color: rgb(224, 224, 224);    
+    background-color: rgb(255, 255, 231);    
     column-gap: 1px;
   }
   #icon{
@@ -71,16 +57,13 @@
     text-decoration-line: underline;
     text-underline-offset: 1vh;
     text-decoration-color: rgb(118, 123, 20);
-    font-family: "Roboto Mono", monospace;  
+    font-family:'Times New Roman', Times, serif;  
   }
   .text{
     cursor: pointer;
-    /* transition: transform 0.3s ease-in; */
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-    /* transition: font-weight 0.3s ease-in; */
-    /* transition: text-decoration ease-in; */
     font-weight: 200;
     font-family: "Roboto Mono", monospace;
   }
@@ -92,9 +75,8 @@
   }
 
   #iconS{
-    color: rgb(118, 123, 20);
+    color: rgb(19, 30, 223);
     width: 1.6rem;
     height: 1.6rem;
-    margin-left: 1vw;
   }
   

@@ -35,15 +35,15 @@ const Body_two = () => {
         <>
             <div id='upper' className="upper bg-gray-100 w-screen flex flex-wrap gap-1 items-center justify-center">
                 {display_card(<faIcons.FaRegCreditCard className='w-12 h-12'/> ,"Administrative Support", "Administrative support streamlines tasks, schedules, and communication, ensuring efficient operations. It manages paperwork, schedules meetings, and aids employees, boosting productivity.", 0)}
-                <div id='outb' className="out w-96 h-1 bg-gray-400"></div>
+                <div id='outb' className="out w-96 h-1 bg-black"></div>
                 {display_card(<faIcons.FaRocketchat className='w-12 h-12'/>, "Customer Support","Customer support is essential for resolving issues, providing guidance, and ensuring satisfaction. It involves listening, empathy, and prompt solutions to inquiries, fostering trust and loyalty.", 1)}
-                <div id='outb' className="out w-96 h-1 bg-gray-400"></div>
+                <div id='outb' className="out w-96 h-1 bg-black"></div>
                 {display_card(<faIcons.FaCalendarCheck className='w-12 h-12'/>, "Project Management", "Project management coordinates tasks, resources, and schedules to achieve objectives within constraints. It requires effective planning, communication, and adaptability for successful project completion.", 2)}
-                <div id='outb' className="out w-96 h-1 bg-gray-400"></div>
+                <div id='outb' className="out w-96 h-1 bg-black"></div>
                 {display_card(<faIcons.FaLaptop className='w-12 h-12'/>, "Social Media Management", "Social media management involves strategizing, creating, scheduling, and analyzing content across various platforms. It aims to build brand presence, engage audiences, and drive business goals effectively.", 3)}
-                <div id='outb' className="out w-96 h-1 bg-gray-400"></div>
+                <div id='outb' className="out w-96 h-1 bg-black"></div>
                 {display_card(<faIcons.FaSearchengin className='w-12 h-12'/>, "Data & Research", "Data and research are pivotal, fueling decisions with insights vital for organizational innovation and adaptation in a dynamic landscape.", 4)}
-                <div id='outb' className="out w-96 h-1 bg-gray-400"></div>
+                <div id='outb' className="out w-96 h-1 bg-black"></div>
                 {display_card(<faIcons.FaUserAstronaut className='w-12 h-12'/>, "Personal Assistant", "A Personal Assistant streamlines tasks, manages schedules, and provides support. They excel in organization, communication, and problem-solving. Offering efficiency, they handle diverse responsibilities, aiding productivity and easing burdens.", 5)}
             </div>
             <div className='flex items-start justify-center bg-gray-100 h-36'>
