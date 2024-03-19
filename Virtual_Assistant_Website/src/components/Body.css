@@ -34,7 +34,7 @@
   }
 
 
-  @media only screen and (min-width: 321px) and (max-width: 768px){
+  @media only screen and (min-width: 321px) and (max-width: 767px){
     #women_box{
         height: max-content;
     }
@@ -109,9 +109,9 @@
 
   @media only screen and (min-width: 768px) and (max-width: 1024px){
     #assist{
-      font-size: 3rem;
+      font-size: 2rem;
       width: 50%;
-      line-height: 10vh;
+      line-height: 6vh;
     }
     #tit{
       font-size: 1.34rem;
@@ -127,4 +127,11 @@
       font-size: 1.1rem;
     }
   }
-  
+  #info3:hover , #btnn:hover , #read_btn:hover{
+    background-color: rgb(80, 109, 6);
+    color: white;
+  }
+  #info3 , #btnn , #read_btn{
+    background-color:blanchedalmond;
+    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
