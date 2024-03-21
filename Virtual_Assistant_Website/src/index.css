@@ -21,7 +21,7 @@
 }
 
   .sidebar-visible {
-    animation: slideIn 0.6s ease-in forwards; 
+    animation: slideIn 0.4s ease-in-out; 
 }
   
   

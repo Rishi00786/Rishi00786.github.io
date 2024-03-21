@@ -27,7 +27,7 @@ const Body = () => {
                             Hi, I'm Maggie, a Skilled Administrative Support Professional
                         </div>
                     </div>
-                    <div id='info2' className='text-center font-thin w-4/5'>
+                    <div id='info2' className='text-center font-normal w-4/5'>
                         <div className="1">
                         Experienced administrative professional adept at multitasking, problem-solving, organization, communication, and delivering exceptional support in various office environments.
                         </div>
@@ -41,7 +41,7 @@ const Body = () => {
                     <div id='j' className="font-medium text-center">
                     What Can I Do For You?
                     </div>
-                    <div id='k' className="2 font-thin text-center m-4 sm:text-lg w-5/6">
+                    <div id='k' className="2 font-normal text-center m-4 sm:text-lg w-5/6">
                     Catering to Your Needs: A Versatile Virtual Assistant Ready to Assist You Every Step of the Way</div>
                 </div>
             </div>

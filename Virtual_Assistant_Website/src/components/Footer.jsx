@@ -11,9 +11,9 @@ const Footer = () => {
             <div id='cards' className='flex items-center justify-center text-center flex-col bg-white sm:gap-8 md:w-72 md:h-11/12 lg:gap-6 xl:gap-6 md:gap-2'>
                 <div id="comma" className=' text-5xl'>⤨⤨</div>
                 <div id='title' className="font-medium sm:text-4xl md:text-xl lg:text-2xl lg:w-full xl:text-3xl">{title}</div>
-                <div id='descript' className="font-thin sm:w-5/6 w-11/12 sm:text-lg md:text-sm xl:text-lg">{description}</div>
+                <div id='descript' className="font-normal sm:w-5/6 w-11/12 sm:text-lg md:text-sm xl:text-lg">{description}</div>
                 <div id='auth' className=" font-medium sm:text-3xl md:text-xl xl:text-3xl">{author}</div>
-                <div id='namee' className="font-thin sm:text-lg md:text-sm xl:text-lg">{name}</div>
+                <div id='namee' className="font-extralight sm:text-lg md:text-sm xl:text-lg">{name}</div>
             </div>
         )
 
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
         </div> 
         <div id="copy" className='flex bg-blue-800 w-screen items-center justify-center sm:h-24'>
-            <div id='copyright' className='text-center text-white font-thin'>© 2035 by Maggie Brightstone. Powered and secured by Wix</div>
+            <div id='copyright' className='text-center text-white font-thin'>© 2035 by Maggie Brightstone. Powered and secured by <a href="https://www.instagram.com/sshui_bnaeh/" target='_blank'><u className='font-semibold'>Rishi</u></a></div>
         </div>
     </div>    
     </>

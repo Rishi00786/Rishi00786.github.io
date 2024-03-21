@@ -26,7 +26,7 @@ const Body_two = () => {
             <div id='card' className={`card ${borderClass} ${borderClass2}`}>
                 <div>{icon}</div>
                 <div id='titl' className="titl text-2xl">{title}</div>
-                <div id='desc' className="w-4/5 font-thin overflow-scroll">{description}</div>
+                <div id='desc' className="w-4/5 font-normal overflow-scroll">{description}</div>
             </div>
         );
     };
