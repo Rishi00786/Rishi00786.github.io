@@ -14,7 +14,7 @@ const Body = () => {
                     Your Dedicated Support Partner
                     </div>
                     <div id='btnn' className=' w-48 h-12 flex items-center justify-center text-black cursor-pointer'>
-                        See Services
+                        <Link to="/contact">See Services</Link>
                     </div>
                 </div>
                 <div id='women_box' className=" flex flex-col items-center md:items-center lg:items-center  gap-8 ">
@@ -33,7 +33,7 @@ const Body = () => {
                         </div>
                     </div>
                     <div id='info3' className='w-36 h-10 flex items-center justify-center mb-4'>
-                        <a href="/more">Read More</a>
+                        <Link to="/about">Read More</Link>
                     </div>
                     </div>
                 </div>

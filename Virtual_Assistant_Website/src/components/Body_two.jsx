@@ -48,7 +48,7 @@ const Body_two = () => {
             </div>
             <div className='flex items-start justify-center bg-gray-100 h-36'>
             <div id='read_btn' className="btn flex items-center justify-center cursor-pointer">
-                <div className=''>Read More</div>
+                <Link to="/about"><div className=''>Read More</div></Link>
             </div>
             </div>
         </>
