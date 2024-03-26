@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import img from '../assets/vector_img.png'
 import * as faIcons from "react-icons/fa";
+import {Link } from 'react-router-dom'
 
 
 
@@ -48,7 +49,7 @@ const Footer = () => {
             <img id='vector_img' className='sm:w-72 md:w-80' src={img} alt=""/>
             <div id='hope_txt ' className='font-bold text-center sm:text-3xl sm:w-5/6 md:w-full text-white'>Let's Take Your Business to the Next Level</div>
             <div id='read_btn' className="btn flex items-center justify-center cursor-pointer">
-                <Link to="\contact"><div className="t">Contact Me</div></Link>
+                <Link to="/contact"><div className="t">Contact Me</div></Link>
             </div>
         </div> 
         <div id="copy" className='flex bg-blue-800 w-screen items-center justify-center sm:h-24'>

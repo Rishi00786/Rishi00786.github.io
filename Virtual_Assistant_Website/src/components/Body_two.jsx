@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Body_two.css';
 import * as faIcons from "react-icons/fa";
+import {Link } from 'react-router-dom'
 
 const Body_two = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);

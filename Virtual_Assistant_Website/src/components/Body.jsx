@@ -1,5 +1,6 @@
 import React from 'react'
 import './Body.css'
+import {Link } from 'react-router-dom'
 import Person from '../assets/person.webp'
 
 const Body = () => {
