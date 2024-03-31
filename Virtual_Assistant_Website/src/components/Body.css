@@ -15,7 +15,7 @@
 #background {
     height: 76vh;
     background-color: aqua;
-    background-image: url('/Users/rishidhingra/Documents/Virtual_Assistant_Website/Virtual_Assistant_Website/src/assets/bg1.png');
+    /* background-image: url('/Users/rishidhingra/Documents/Virtual_Assistant_Website/Virtual_Assistant_Website/src/assets/bg1.png'); */
     background-repeat: no-repeat;
     background-origin: border-box;
     background-position: center;

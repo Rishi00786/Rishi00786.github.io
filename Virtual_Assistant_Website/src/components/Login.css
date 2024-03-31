@@ -45,6 +45,14 @@
     .containerr{
         height: 90vh;
     }
+    #btn:hover{
+    background-color: rgb(107, 216, 255);
+    color: black;
+    border-color: black;
+    box-shadow: 0 0 30px rgb(111, 96, 13), 
+    0 0 30px rgb(19, 94, 24),
+    0 0 30px rgb(50, 12, 54); 
+}
 }
 @media only screen and (min-width:768px){
     #line{
@@ -76,19 +84,12 @@
 
 #btn{
     transition: all 0.3s ease-in-out;
-    box-sizing: border-box;
 }
-#btn:hover{
-    background-color: rgb(107, 216, 255);
-    color: black;
-    border-color: black;
-    box-shadow: 0 0 30px rgb(111, 96, 13), 
-    0 0 30px rgb(19, 94, 24),
-    0 0 30px rgb(50, 12, 54); 
-}
+
 #label{
     position: absolute;
 }
+
 .containerr {
     width: 100vw;
   --sz: 4px; /*** size ***/
